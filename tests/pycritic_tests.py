@@ -10,7 +10,7 @@ def teardown():
 def test_get_max_page():
   a = pycritic.games.games_list.get_platform_list("ps3", 1)
   b =  pycritic.games.games_list.get_max_page(a)
-  assert_equal(b, 7)
+  assert_equal(b, 8)
 
 def test_get_game_details():
   a = pycritic.games.games_list.get_platform_list("ps3", 0)
